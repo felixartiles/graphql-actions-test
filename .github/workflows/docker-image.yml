@@ -28,7 +28,7 @@ jobs:
         docker build -t felixartiles/graphql:0.0.1 . 
     - name: Push Docker Image to Repository
       run: |
-        docker push felixartiles/graphql:0.0.1 . 
+        docker push felixartiles/graphql:0.0.1
     
     
     # - name: Build the Docker image
